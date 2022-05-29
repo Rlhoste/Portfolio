@@ -1,0 +1,657 @@
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #227;
+}
+
+#panel-presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #333290;
+}
+
+#panel-competences {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#panel-projets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #083F3F;
+}
+
+#panel-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #304;
+}
+
+#masthead {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 9999;
+}
+
+#masthead a {
+    padding: 1rem 2rem;
+    color: #fff;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #FFF;
+}
+
+.container {
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+}
+
+.panel {
+    scroll-snap-align: start;
+    height: 100vh;
+    width: 100vw;
+    padding: 0%;
+    color: inherit;
+    font-size: inherit;
+}
+
+.red {
+    background-color: #80F;
+    box-shadow: rgb(0, 0, 18, 0.5) 1em 3em 6em 0em inset, rgba(0, 0, 18, 0.5) -1em -3em 3em 1em inset;
+    background-image: none;
+}
+
+#panels-container {
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.container2 {
+    width: 100vw;
+}
+
+@font-face {
+    font-family: Kayak;
+    src: url("../fonts/Kayak Sans Light.otf");
+}
+
+@font-face {
+    font-family: Kayak1;
+    src: url("../fonts/Kayak Sans Bold.otf");
+}
+
+@font-face {
+    font-family: Montserra1;
+    src: url("../fonts/Montserrat-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Montserra2;
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.center {
+    top: 60vh;
+    left: 10vw;
+    position: absolute;
+    text-align: left;
+}
+
+#p1title1 {
+    font-family: Kayak1;
+    font-size: 7rem;
+    position: relative;
+}
+
+#p1title2 {
+    position: relative;
+    bottom: 1vh;
+    font-family: Kayak1;
+    font-size: 2rem;
+}
+
+.p1text2 {
+    text-align: right;
+    background-color: #FFF;
+    color: #22B;
+    font-family: Kayak1;
+    font-size: 4vw;
+}
+
+.p1text {
+    text-align: right;
+    font-family: Kayak1;
+    font-size: 2vw;
+    color: #FFF;
+    text-align: left;
+    padding-top: 1vh;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.visited {
+    color: #FFF;
+}
+
+a.active {
+    color: #FFF;
+}
+
+.sommaire {
+    position: absolute;
+    top: 20vh;
+    left: 70vw;
+}
+
+
+/* page 2 */
+
+.wavecollec2 {
+    position: relative;
+    align-items: flex-start;
+    display: flex;
+    top: -50vh;
+    left: 80vw;
+}
+
+#wave3 {
+    z-index: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+#wave4 {
+    z-index: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+#wave5 {
+    z-index: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+#wave6 {
+    z-index: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+#cloud {
+    z-index: 0;
+    position: absolute;
+    height: 100vh;
+    left: -120vw;
+    top: -30vh
+}
+
+.p2titleblock {
+    position: relative;
+    align-items: flex-start;
+    display: flex;
+}
+
+.p2block2 {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.p2block3 {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    left: 100vw;
+}
+
+.p2block4 {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    left: 100vw;
+}
+
+.p2block2img {
+    position: absolute;
+    align-items: flex-start;
+    display: flex;
+    z-index: 1;
+    scale: 0.8;
+    left: -95vw;
+    top: -12vh;
+}
+
+#p2title1 {
+    font-size: 8em;
+    font-family: Kayak1;
+    left: -100vw;
+    position: relative;
+}
+
+#p2title2 {
+    font-size: 3em;
+    font-family: Kayak1;
+    left: -95vw;
+    top: 25vh;
+    position: relative;
+}
+
+#p2title3 {
+    font-size: 2em;
+    font-family: Kayak1;
+    text-align: left;
+    left: -100vw;
+    top: 25vh;
+    position: relative;
+}
+
+.pres {
+    background-color: transparent;
+    border: none;
+    font-size: 8em;
+    color: #FFF;
+    position: relative;
+    left: -10vw;
+    z-index: 1000;
+}
+
+.transition1 {
+    position: relative;
+    left: 0vw;
+}
+
+#p2title4 {
+    font-size: 4em;
+    font-family: Kayak1;
+    text-align: center;
+    position: relative;
+    top: 10vh;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 12vw 16vw 12vw 16vw;
+    grid-template-rows: 33vh 33vh;
+    grid-gap: 0vw;
+    /* background-color: rgb(252, 122, 0); */
+    position: relative;
+    left: 22vw;
+    top: 20vh;
+}
+
+.palmier {
+    position: absolute;
+    height: 100vh;
+}
+
+.triangle {
+    position: absolute;
+    height: 100vh;
+}
+
+
+/* .grid-container2>div {
+text-align: left;
+width: 20vw;
+}
+*/
+
+.grid-item2 {
+    font-size: 25px;
+    font-family: Kayak;
+    text-align: left;
+}
+
+.img1 {
+    width: 10vw;
+}
+
+.loisir {
+    position: relative;
+}
+
+
+/* page 3 */
+
+.p3title {
+    font-family: Kayak;
+    color: #FFF;
+    top: -5vh;
+    left: 0vw;
+    font-size: 3em;
+    position: relative;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    grid-gap: 3vw;
+    /* background-color: rgb(252, 122, 0); */
+    position: relative;
+}
+
+.grid-container>div {
+    /* background-color: rgba(255, 150, 0, 0.8); */
+    text-align: left;
+    width: 30vw;
+}
+
+.grid-item {
+    font-size: 30px;
+    font-family: Kayak;
+}
+
+.prog {
+    padding-top: 1vh;
+}
+
+progress {
+    display: block;
+    /* default: inline-block */
+    width: 30vw;
+    background: rgb(128, 128, 128);
+    border-radius: 20px;
+}
+
+progress::-moz-progress-bar {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.2), 4px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/* webkit */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    progress {
+        height: 25px;
+    }
+}
+
+progress::-webkit-progress-bar {
+    background: transparent;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.2), 4px 15px 0px rgba(0, 0, 0, 0.2);
+    /* box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.4), 0 2px 5px 0px rgba(0, 0, 0, 0.3); */
+}
+
+.prog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#progress1_progress {
+    position: relative;
+    left: 1vw;
+}
+
+#progress2_progress {
+    position: relative;
+    left: 1vw;
+}
+
+#progress3_progress {
+    position: relative;
+    left: 1vw;
+}
+
+#progress4_progress {
+    position: relative;
+    left: 1vw;
+}
+
+#progress5_progress {
+    position: relative;
+    left: 1vw;
+}
+
+#progress6_progress {
+    position: relative;
+    left: 1vw;
+}
+
+#progress7_progress {
+    position: relative;
+    left: 1vw;
+}
+
+#progress8_progress {
+    position: relative;
+    left: 1vw;
+}
+
+#progress9_progress {
+    position: relative;
+    left: 1vw;
+}
+
+#progress10_progress {
+    position: relative;
+    left: 1vw;
+}
+
+#progress2 {
+    position: relative;
+}
+
+.wavecollec {
+    position: relative;
+    align-items: flex-start;
+    display: flex;
+    top: -50vh;
+    left: -50vw;
+}
+
+#wave {
+    z-index: 0;
+    position: absolute;
+    height: 100vh;
+    left: -100vw;
+}
+
+#wave2 {
+    z-index: 0;
+    position: absolute;
+    height: 100vh;
+    left: -100vw;
+}
+
+.box {
+    display: block;
+}
+
+
+/*page 4*/
+
+.p4title {
+    font-size: 3rem;
+    font-family: kayak;
+    top: 5vh;
+    position: absolute;
+}
+
+.galery-text {
+    position: absolute;
+    top: 22vh;
+    color: rgb(128, 128, 255, 0.5);
+    font-size: 10rem;
+    font-family: Montserra2;
+    width: 100000vw;
+}
+
+.galery-text2 {
+    position: absolute;
+    top: 62vh;
+    color: rgb(128, 128, 255, 0.5);
+    font-size: 10rem;
+    font-family: Montserra2;
+    width: 100000vw;
+}
+
+.galery-text3 {
+    position: absolute;
+    top: 7vh;
+    color: transparent;
+    font-size: 6rem;
+    font-family: Montserra2;
+    width: 1000vw;
+    color: rgba(255, 255, 255, 1);
+    z-index: 0;
+}
+
+.cache-p4 {
+    position: absolute;
+    top: 35vh;
+    width: 100vw;
+    background-color: #083F3F;
+    height: 40vh;
+}
+
+.cache-p42 {
+    position: absolute;
+    top: 75vh;
+    width: 100vw;
+    background-color: #083F3F;
+    height: 10vh;
+}
+
+.galery-container {
+    position: absolute;
+    top: 30vh;
+    width: 7250px;
+    height: 20vh;
+}
+
+.galery-container2 {
+    position: absolute;
+    top: 70vh;
+    width: 7250px;
+    height: 20vh;
+}
+
+.galery-subcontainer {
+    background-color: rgba(08, 124, 124, 0.0);
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 10%;
+}
+
+.galery-subcontainer2 {
+    background-color: rgba(08, 124, 124, 0.0);
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 10%;
+}
+
+.galery-img-container {
+    height: 100%;
+    width: auto;
+    /* background-color: #FFF; */
+    float: left;
+    padding-left: 1%;
+    font-size: 0em;
+}
+
+.img-galery {
+    position: relative;
+    height: 100%;
+    background-color: #227;
+    box-shadow: rgba(128, 128, 255, 0.3) 5px 0px 0px, rgba(128, 128, 255, 0.3) -5px 0px 0px;
+    border-radius: 15px;
+}
+
+.text-galery {
+    position: relative;
+    text-align: center;
+    top: 0vh;
+    color: #CCC;
+    font-family: kayak;
+    background-color: rgba(16, 16, 64, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+
+/* page 5 */
+
+#p5title1 {
+    position: absolute;
+    top: 10vh;
+    font-size: 3rem;
+    font-family: kayak;
+}
+
+#p5left {
+    position: absolute;
+    left: 10vw;
+    top: 30vh;
+    align-items: flex-start;
+    display: flex;
+    width: 40vw;
+    height: 100vh;
+}
+
+#p5lefttext {
+    position: relative;
+    font-family: kayak;
+    font-size: 3rem;
+    left: 2vw;
+    top: 0vh;
+    text-align: left;
+}
+
+.trait1 {
+    background-color: #FFF;
+    position: relative;
+    height: 40vh;
+    width: .25vw;
+    left: 0vw;
+}
+
+#p5right {
+    position: relative;
+    left: 10vw;
+    align-items: flex-start;
+    display: flex;
+}
+
+.trait2 {
+    background-color: #FFF;
+    position: relative;
+    height: 40vh;
+    width: .25vw;
+    left: 0vw;
+}
